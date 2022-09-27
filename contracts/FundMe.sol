@@ -9,7 +9,7 @@ import "./PriceConverter.sol";
 error FundMe__NotOwner();
 
 /**@title A sample Funding Contract
- * @author Patrick Collins
+ * @author Kevin Denny II
  * @notice This contract is for creating a sample funding contract
  * @dev This implements price feeds as our library
  */
@@ -17,10 +17,11 @@ contract FundMe {
     // Type Declarations
     using PriceConverter for uint256;
 
-    // State variables
+    // State variables that are added to storage
     uint256 public constant MINIMUM_USD = 50 * 10**18;
     address private immutable i_owner;
     address[] private s_funders;
+    //s_ are storage variables which has an expensive gas price
     mapping(address => uint256) private s_addressToAmountFunded;
     AggregatorV3Interface private s_priceFeed;
 
