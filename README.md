@@ -163,9 +163,9 @@ yarn format
 ```
 
 
-# Thank you!
+# Thank you to Patrick!!!
 
-If you appreciated this, feel free to follow me or donate!
+If you appreciated this, feel free to follow Patrick or donate!
 
 ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
 
